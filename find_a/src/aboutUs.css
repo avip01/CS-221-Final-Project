@@ -1,0 +1,69 @@
+body{
+    background: #D3D3D3;
+}
+
+.aboutUs{
+    text-align: center;
+    color: #EBEAE3;
+    background: #5A6651;
+    padding: 10px;
+}
+
+.description{
+    text-align: center;
+    background: #EBEAE3;
+    color: #333333;
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.avi img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nehemiah img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.hamed img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.marion img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.john img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
