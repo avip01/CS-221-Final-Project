@@ -13,9 +13,20 @@ body{
     text-align: center;
     background: #EBEAE3;
     color: #333333;
-    padding: 10px;
+    padding: 30px;
     margin-bottom: 30px;
+}
 
+.scrolling {
+    width: 650px;
+    height: 200px;
+    background: #D1D0C9;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    border-radius: 12px;
 }
 
 .photos {
@@ -26,44 +37,200 @@ body{
     gap: 15px;
 }
 
-.avi img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
+.avi {
+    position: relative;
+    display: inline-block;
 }
 
-.nehemiah img{
+.avi img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
     object-fit: cover;
+    border-radius: 50%;
+    transition: opacity 0.3s ease;
 }
 
-.hamed img{
+.avi::after {
+    content: "Avi Patel";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.avi:hover img {
+    filter: brightness(50%);
+}
+
+.avi:hover::after {
+    opacity: 1;
+}
+
+.nehemiah {
+    position: relative;
+    display: inline-block;
+}
+
+.nehemiah img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
     object-fit: cover;
+    border-radius: 50%;
+    transition: opacity 0.3s ease;
 }
 
-.marion img{
+.nehemiah::after {
+    content: "Nehemiah Sanders";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.nehemiah:hover img {
+    filter: brightness(50%);
+}
+
+.nehemiah:hover::after {
+    opacity: 1;
+}
+
+.hamed {
+    position: relative;
+    display: inline-block;
+}
+
+.hamed img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
     object-fit: cover;
+    border-radius: 50%;
+    transition: opacity 0.3s ease;
 }
 
-.john img{
+.hamed::after {
+    content: "Mouhamadou Diop";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.hamed:hover img {
+    filter: brightness(50%);
+}
+
+.hamed:hover::after {
+    opacity: 1;
+}
+
+.marion {
+    position: relative;
+    display: inline-block;
+}
+
+.marion img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
     object-fit: cover;
+    border-radius: 50%;
+    transition: opacity 0.3s ease;
 }
 
-.photos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+.marion::after {
+    content: "Marion Office";
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.marion:hover img {
+    filter: brightness(50%);
+}
+
+.marion:hover::after {
+    opacity: 1;
+}
+
+.john {
+    position: relative;
+    display: inline-block;
+}
+
+.john img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: opacity 0.3s ease;
+}
+
+.john::after {
+    content: "John Hernandez";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0;
+    font-size: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.john:hover img {
+    filter: brightness(50%);
+}
+
+.john:hover::after {
+    opacity: 1;
+}
+
+.jouji {
+    position: relative;
+    display: inline-block;
+}
+
+.jouji img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: opacity 0.3s ease;
+}
+
+.jouji::after {
+    content: "Jouji Takeda";
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.jouji:hover img {
+    filter: brightness(50%);
+}
+
+.jouji:hover::after {
+    opacity: 1;
 }
