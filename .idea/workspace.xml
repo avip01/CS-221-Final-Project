@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="Edited implementation of sign up page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="Folder changes">
       <change beforePath="$PROJECT_DIR$/find_a/src/signUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/signUp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +91,7 @@
       <workItem from="1742335683967" duration="2197000" />
       <workItem from="1742337886697" duration="2284000" />
       <workItem from="1742391931037" duration="27000" />
-      <workItem from="1743629943453" duration="3468000" />
+      <workItem from="1743629943453" duration="3778000" />
     </task>
     <task id="LOCAL-00001" summary="default files">
       <option name="closed" value="true" />
@@ -142,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743633555367</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Edited implementation of my html from &quot;UAB-CS-221&quot;">
+      <option name="closed" value="true" />
+      <created>1743634274841</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743634274841</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Folder changes">
+      <option name="closed" value="true" />
+      <created>1743634284622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743634284622</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +191,8 @@
     <MESSAGE value="Downloaded npm" />
     <MESSAGE value="Copied html, css, and files from &quot;UAB-CS-221&quot; repo to implement into react." />
     <MESSAGE value="Edited implementation of sign up page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited implementation of sign up page" />
+    <MESSAGE value="Edited implementation of my html from &quot;UAB-CS-221&quot;" />
+    <MESSAGE value="Folder changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Folder changes" />
   </component>
 </project>
