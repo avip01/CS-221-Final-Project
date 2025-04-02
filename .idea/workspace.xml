@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="Copied html, css, and files from &quot;UAB-CS-221&quot; repo to implement into react.">
-      <change beforePath="$PROJECT_DIR$/find_a/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/App.test.js" afterDir="false" />
+    <list default="true" id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="Edited implementation of sign up page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_a/src/signUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/signUp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,7 @@
       <workItem from="1742335683967" duration="2197000" />
       <workItem from="1742337886697" duration="2284000" />
       <workItem from="1742391931037" duration="27000" />
-      <workItem from="1743629943453" duration="2789000" />
+      <workItem from="1743629943453" duration="3468000" />
     </task>
     <task id="LOCAL-00001" summary="default files">
       <option name="closed" value="true" />
@@ -133,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743633399569</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Edited implementation of sign up page">
+      <option name="closed" value="true" />
+      <created>1743633555367</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743633555367</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +175,7 @@
     <MESSAGE value="default files" />
     <MESSAGE value="Downloaded npm" />
     <MESSAGE value="Copied html, css, and files from &quot;UAB-CS-221&quot; repo to implement into react." />
-    <option name="LAST_COMMIT_MESSAGE" value="Copied html, css, and files from &quot;UAB-CS-221&quot; repo to implement into react." />
+    <MESSAGE value="Edited implementation of sign up page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited implementation of sign up page" />
   </component>
 </project>
