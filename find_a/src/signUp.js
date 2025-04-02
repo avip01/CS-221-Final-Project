@@ -1,82 +1,46 @@
-import React, { useState } from "react";
-import "./signUp.css"; // Ensure you have a CSS file for styling
+import React from "react";
+import "./signUp.css";
 
-const SignUp = () => {
-    const [formData, setFormData] = useState({
-        fName: "",
-        lName: "",
-        username: "",
-        email: "",
-        password: "",
-        interests: []
-    });
-
-    const handleChange = (e) => {
-        const { name, value, type, checked } = e.target;
-        if (type === "checkbox") {
-            setFormData((prev) => ({
-                ...prev,
-                interests: checked
-                    ? [...prev.interests, value]
-                    : prev.interests.filter((interest) => interest !== value)
-            }));
-        } else {
-            setFormData({ ...formData, [name]: value });
-        }
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log("Form Submitted", formData);
-    };
-
-    return (
-        <div className="signup-container">
-            <header className="signup-header">My Logo</header>
-            <form onSubmit={handleSubmit} className="signup-form">
-                <div className="form-group">
-                    <div className="input-field">
-                        <label>First Name:</label>
-                        <input type="text" name="fName" placeholder="Enter your first name" value={formData.fName} onChange={handleChange} />
+const SignUp = () => (
+    <div className="main">
+        <h1>My Logo</h1>
+        <form action="mailto:ntsander@uab.edu" method="get" encType="text/plain">
+            <div id="sign-up-form">
+                <div className="form-name">
+                    <div>
+                        First Name:<br />
+                        <input type="text" name="fName" placeholder="Enter your first name" /><br />
                     </div>
-                    <div className="input-field">
-                        <label>Last Name:</label>
-                        <input type="text" name="lName" placeholder="Enter your last name" value={formData.lName} onChange={handleChange} />
+                    <div>
+                        Last Name:<br />
+                        <input type="text" name="lName" placeholder="Enter your last name" /><br />
                     </div>
                 </div>
-                <div className="input-field">
-                    <label>Username:</label>
-                    <input type="text" name="username" placeholder="Enter a username" value={formData.username} onChange={handleChange} />
+                <div>
+                    Username:<br />
+                    <input type="text" name="username" placeholder="Enter a username" /><br />
                 </div>
-                <div className="input-field">
-                    <label>Email:</label>
-                    <input type="email" name="email" placeholder="Enter your email" value={formData.email} onChange={handleChange} />
+                <div>
+                    Email:<br />
+                    <input type="email" name="email" placeholder="Enter your email" /><br />
                 </div>
-                <div className="input-field">
-                    <label>Password:</label>
-                    <input type="password" name="password" placeholder="Enter a password" value={formData.password} onChange={handleChange} />
+                <div>
+                    Password:<br />
+                    <input type="password" name="password" placeholder="Enter a password" /><br />
                 </div>
-                <div className="interests-section">
-                    <b>Select your interests:</b>
-                    <div className="checkbox-grid">
-                        {["Bike", "Car", "Boat", "Plane", "Cow", "Ski"].map((interest, index) => (
-                            <div key={index} className="checkbox-item">
-                                <input
-                                    type="checkbox"
-                                    id={`interest${index}`}
-                                    value={interest}
-                                    checked={formData.interests.includes(interest)}
-                                    onChange={handleChange}
-                                />
-                                <label htmlFor={`interest${index}`}>I have a {interest.toLowerCase()}</label>
-                            </div>
-                        ))}
-                    </div>
+                <b>Select your interests:</b>
+                <div className="vehicle-grid">
+                    {["Bike", "Car", "Boat", "Plane", "Cow", "Ski"].map((interest, index) => (
+                        <div key={index}>
+                            <input type="checkbox" id={`vehicle${index + 1}`} name="interests" value={interest} />
+                            <label htmlFor={`vehicle${index + 1}`}> I have a {interest.toLowerCase()}</label>
+                        </div>
+                    ))}
                 </div>
-                <button type="submit" className="signup-button">Sign Up!</button>
-            </form>
-        </div>
-    );
-};
+                <div><button type="submit">Sign Up!</button></div>
+            </div>
+        </form>
+    </div>
+);
 
 export default SignUp;
