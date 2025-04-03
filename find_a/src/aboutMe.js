@@ -45,9 +45,11 @@ function AboutUs() {
             <div className="photos">
                 <div className="avi">
                     <img src={aviImg} alt="Picture of Avi"/>
+                    <span className="loader"></span>
                 </div>
                 <div className="nehemiah">
                     <img src={nehemiahImg} alt="Picture of Nehemiah"/>
+
                 </div>
                 <div className="hamed">
                     <img src={hamedImg} alt="Picture of Mouhamadou"/>
