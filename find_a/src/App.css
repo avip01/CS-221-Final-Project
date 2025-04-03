@@ -132,7 +132,7 @@
 .hero-button:hover {
   background-color: #EEEADC;
   transform: scale(1.3);
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
