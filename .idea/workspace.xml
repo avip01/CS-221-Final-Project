@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="fixed spacing for form fields">
+    <list default="true" id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="removed unnecessary line breaks and fixed button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_a/src/signUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/signUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_a/src/signUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/signUp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743696388234</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="removed unnecessary line breaks and fixed button">
+      <option name="closed" value="true" />
+      <created>1743697665569</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743697665569</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +212,7 @@
     <MESSAGE value="Edited implementation of my html from &quot;UAB-CS-221&quot;" />
     <MESSAGE value="Folder changes" />
     <MESSAGE value="fixed spacing for form fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed spacing for form fields" />
+    <MESSAGE value="removed unnecessary line breaks and fixed button" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed unnecessary line breaks and fixed button" />
   </component>
 </project>
