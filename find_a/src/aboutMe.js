@@ -61,7 +61,6 @@ function AboutUs() {
                 <div className="jouji">
                     <img src={joujiImg} alt="Picture of Jouji"/>
                 </div>
-
             </div>
         </main>
     );

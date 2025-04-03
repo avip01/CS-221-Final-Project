@@ -11,10 +11,10 @@ body{
 
 .description{
     text-align: center;
-    background: #EBEAE3;
+    background: #EBEAE2;
     color: #333333;
     padding: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 90px;
 }
 
 .scrolling {
@@ -34,7 +34,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 50px;
 }
 
 .avi {
@@ -47,7 +47,7 @@ body{
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .avi::after {
@@ -64,6 +64,7 @@ body{
 
 .avi:hover img {
     filter: brightness(50%);
+    transform: scale(1.1);
 }
 
 .avi:hover::after {
@@ -80,7 +81,7 @@ body{
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .nehemiah::after {
@@ -97,6 +98,7 @@ body{
 
 .nehemiah:hover img {
     filter: brightness(50%);
+    transform: scale(1.1);
 }
 
 .nehemiah:hover::after {
@@ -113,7 +115,7 @@ body{
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .hamed::after {
@@ -130,6 +132,7 @@ body{
 
 .hamed:hover img {
     filter: brightness(50%);
+    transform: scale(1.1);
 }
 
 .hamed:hover::after {
@@ -146,7 +149,7 @@ body{
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .marion::after {
@@ -163,6 +166,7 @@ body{
 
 .marion:hover img {
     filter: brightness(50%);
+    transform: scale(1.1);
 }
 
 .marion:hover::after {
@@ -179,7 +183,7 @@ body{
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .john::after {
@@ -196,6 +200,7 @@ body{
 
 .john:hover img {
     filter: brightness(50%);
+    transform: scale(1.1);
 }
 
 .john:hover::after {
@@ -212,7 +217,7 @@ body{
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .jouji::after {
@@ -229,6 +234,7 @@ body{
 
 .jouji:hover img {
     filter: brightness(50%);
+    transform: scale(1.1);
 }
 
 .jouji:hover::after {
