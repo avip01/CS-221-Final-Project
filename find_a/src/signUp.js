@@ -6,24 +6,24 @@ const SignUp = () => (
         <form action="mailto:ntsander@uab.edu" method="get" encType="text/plain">
             <div id="sign-up-form">
                 <div className="form-name">
-                    <div>
+                    <div className="first-name">
                         First Name:<br />
                         <input type="text" name="fName" placeholder="Enter your first name" /><br />
                     </div>
-                    <div>
+                    <div className="last-name">
                         Last Name:<br />
                         <input type="text" name="lName" placeholder="Enter your last name" /><br />
                     </div>
                 </div>
-                <div>
+                <div className="full-length-input">
                     Username:<br />
                     <input type="text" name="username" placeholder="Enter a username" /><br />
                 </div>
-                <div>
+                <div className="full-length-input">
                     Email:<br />
                     <input type="email" name="email" placeholder="Enter your email" /><br />
                 </div>
-                <div>
+                <div className="full-length-input">
                     Password:<br />
                     <input type="password" name="password" placeholder="Enter a password" /><br />
                 </div>

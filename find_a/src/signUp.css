@@ -51,12 +51,32 @@ body::before {
     padding: 20px;
     border-radius: 20px;
     text-align: center;
+    width: 500px;
 }
 
 .form-name {
     display: flex;
     flex-direction: row;
     gap: 15px;
+    width: 100%;
+}
+
+.first-name {
+    width: 100%;
+}
+
+.first-name input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.last-name {
+    width: 100%;
+}
+
+.last-name input {
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .vehicle-grid {
@@ -73,6 +93,7 @@ body::before {
 
 form input {
     border-radius: 10px;
+    padding: 10px;
 }
 
 #sign-up-form button {
@@ -81,4 +102,15 @@ form input {
     border-radius: 20px;
     padding: 15px 20px 15px 20px;
     color: white;
+}
+
+.full-length-input {
+    width: 100%;
+}
+
+.full-length-input input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
