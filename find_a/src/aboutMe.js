@@ -11,11 +11,11 @@ function AboutUs() {
     return (
         <main>
             <div className="aboutUs">
-                <h1>About Us</h1>
+                <h1>Find Me A</h1>
             </div>
 
             <div className="description">
-                <h1 className="appTitle">Find Me A</h1>
+                <h1 className="appTitle">About Us</h1>
                 <div className="scrolling">
                 <p className="summary">
                     Welcome to Find Me A, your go-to platform designed to transform online connections into real-world

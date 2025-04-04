@@ -15,6 +15,16 @@ body{
     color: #333333;
     padding: 30px;
     margin-bottom: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.appTitle {
+    flex: 1 0 100%;
+    text-align: center;
 }
 
 .scrolling {
@@ -25,8 +35,10 @@ body{
     padding: 10px;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-    margin: 0 auto;
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .photos {
