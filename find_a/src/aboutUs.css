@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: url('./assets/appBackground.png') repeat-x;
-    background-size: 130%;
+    background-size: auto;
     animation: pan 650s linear infinite;
 }
 
