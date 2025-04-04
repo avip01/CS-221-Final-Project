@@ -42,7 +42,7 @@ body{
     height: 170px;
     border-radius: 50%;
     display: block;
-    border-top: 3px solid #8B0000;
+    border-top: 3px solid #44ae72;
     border-right: 3px solid transparent;
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
@@ -99,6 +99,17 @@ body{
     opacity: 1;
 }
 
+.loader2 {
+    border-top: 3px solid #3285f3;
+    top: 50%;
+    left: 50%;
+}
+
+.nehemiah:hover .loader {
+    transform: translate(-50%, calc(-50% - 1px)) scale(1);
+    opacity: 1;
+}
+
 .nehemiah {
     position: relative;
     display: inline-block;
@@ -130,6 +141,17 @@ body{
 }
 
 .nehemiah:hover::after {
+    opacity: 1;
+}
+
+.loader3 {
+    border-top: 3px solid #333333;
+    top: 50%;
+    left: 50%;
+}
+
+.hamed:hover .loader {
+    transform: translate(-50%, calc(-50% - 1px)) scale(1);
     opacity: 1;
 }
 
@@ -167,6 +189,17 @@ body{
     opacity: 1;
 }
 
+.loader4 {
+    border-top: 3px solid #A65959;
+    top: 50%;
+    left: 50%;
+}
+
+.marion:hover .loader {
+    transform: translate(-50%, calc(-50% - 1px)) scale(1);
+    opacity: 1;
+}
+
 .marion {
     position: relative;
     display: inline-block;
@@ -201,6 +234,17 @@ body{
     opacity: 1;
 }
 
+.loader5 {
+    border-top: 3px solid #4E428A;
+    top: 50%;
+    left: 50%;
+}
+
+.john:hover .loader {
+    transform: translate(-50%, calc(-50% - 1px)) scale(1);
+    opacity: 1;
+}
+
 .john {
     position: relative;
     display: inline-block;
@@ -232,6 +276,17 @@ body{
 }
 
 .john:hover::after {
+    opacity: 1;
+}
+
+.loader6 {
+    border-top: 3px solid #3E2723;
+    top: 50%;
+    left: 50%;
+}
+
+.jouji:hover .loader {
+    transform: translate(-50%, calc(-50% - 1px)) scale(1);
     opacity: 1;
 }
 

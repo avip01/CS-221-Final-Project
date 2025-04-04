@@ -49,19 +49,23 @@ function AboutUs() {
                 </div>
                 <div className="nehemiah">
                     <img src={nehemiahImg} alt="Picture of Nehemiah"/>
-
+                    <span className="loader loader2"></span>
                 </div>
                 <div className="hamed">
                     <img src={hamedImg} alt="Picture of Mouhamadou"/>
+                    <span className="loader loader3"></span>
                 </div>
                 <div className="marion">
                     <img src={marionImg} alt="Picture of Marion"/>
+                    <span className="loader loader4"></span>
                 </div>
                 <div className="john">
                     <img src={johnImg} alt="Picture of John"/>
+                    <span className="loader loader5"></span>
                 </div>
                 <div className="jouji">
                     <img src={joujiImg} alt="Picture of Jouji"/>
+                    <span className="loader loader6"></span>
                 </div>
             </div>
         </main>
