@@ -30,12 +30,12 @@ body{
     gap: 25px;
 }
 /*Sets the pfp and user info to display on the left side */
-.left-content{
+.left-column{
     display:flex;
     flex-direction: column;
     align-items: center;
     gap:20px;
-    width:50%;
+    width:30%;
 }
 /* this is the profile picture container*/
 .pfp{
@@ -66,7 +66,7 @@ body{
 .profile-inputs{
     width:100%;
     padding:12px;
-    border-radius:5px;
+    border-radius:10px;
     background-color: #57664f;
     color:white;
     text-align: center;
@@ -74,14 +74,19 @@ body{
 }
 /*uses the remaining page */
 .right-column{
-    flex:1;
+    flex: 1;
 }
 .bio-section{
     background-color: #ebeae2;
     padding: 20px;
+    width:60%;
+    align-content: center;
+    justify-content: center;
+    margin-left:25%;
 }
 .bio-title{
     display:block;
+    padding:1.5rem;
     margin-bottom:5px;
     font-weight:bold;
 }
@@ -89,6 +94,63 @@ body{
 .biographyTextArea{
     width:100%;
     height:15rem;
-    margin-bottom:8px;
+    margin-bottom:10px;
+    resize:none;
 }
+button{
+    background-color:#57664f;
+    color:white;
+}
+
+/* friend section*/
+.friends-section{
+    background-color:#ebeae2;
+    padding: 20px;
+}
+.friends-title{
+    text-align:center;
+    font-size:1.5rem;
+    margin-bottom: 20px;
+}
+.friend-grid{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.friend-card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/* sets the size of the container for the friend pictures and makes it circular*/
+.friend-pic-container{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid lightgray;
+    margin-bottom:5px;
+}
+/*Makes sure that the user's friends pfp covers the whole container*/
+.friend-pic{
+    width:100%;
+    height:100%;
+    object-fit:cover
+}
+.friend-name{
+    width:40px;
+    height:40px;
+}
+.friend-username, .friend-bio{
+    margin: 2px 0;
+}
+
+
+
+
 
