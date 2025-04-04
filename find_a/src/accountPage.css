@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+.wrapper{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.account-page{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.header{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom:5px
+}
+.main-content{
+    display:flex;
+    gap: 25px;
+}
+
+.left-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    width:50%;
+}
