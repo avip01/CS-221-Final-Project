@@ -38,15 +38,49 @@ const AccountPage = () => {
                     </div>
 
                     {/* friends section */}
-
+                    <div className="friends-section">
+                        <h2 className="friends-title">Friends</h2>
+                            <div className="friend-grid">
+                                {friends.map(friend =>(
+                                    <FriendCard
+                                    key={friend.id}
+                                    name={friend.name}
+                                    username={friend.username}
+                                    bio={friend.bio}
+                                    imageSrc={imageSrcPlaceholder}
+                                    />
+                                ))}
+                            </div>
+                    </div>
 
                 </div>
             </div>
-
-
         </div>
     );
 };
+
+{/*friend card component */}
+const FriendCard = ({name, username, bio, imageSrc}) =>{
+    return(
+        <div className="friend-card">
+            <div className="friend-pic-container">
+                <img className="friend-pic" src={imageSrc} alt={`${name}'s profile`} />
+            </div>
+            <div className="friend-name">{name}</div>
+            <div className="friend-username">{username}</div>
+            <div className="friend-bio">{bio}</div>
+        </div>
+    );
+};
+{/*mock data for friends */}
+const friends = [
+    {id: 1, name: 'Name', username: 'Username', bio: 'Bio'},
+    {id: 2, name: 'Name', username: 'Username', bio: 'Bio'},
+    {id: 3, name: 'Name', username: 'Username', bio: 'Bio'},
+    {id: 4, name: 'Name', username: 'Username', bio: 'Bio'},
+    {id: 5, name: 'Name', username: 'Username', bio: 'Bio'},
+    {id: 6, name: 'Name', username: 'Username', bio: 'Bio'},
+    ];
 
 
 
