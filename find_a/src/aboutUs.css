@@ -1,20 +1,35 @@
-body{
-    background: #D3D3D3;
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./assets/appBackground.png') repeat-x;
+    background-size: 130%;
+    animation: pan 650s linear infinite;
+}
+
+@keyframes pan {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -6009px 0;
+    }
 }
 
 .aboutUs{
     text-align: center;
-    color: #EBEAE3;
-    background: #5A6651;
+    color: #333333;
     padding: 10px;
 }
 
 .description{
     text-align: center;
-    background: #EBEAE2;
     color: #333333;
-    padding: 30px;
-    margin-bottom: 90px;
+    background: #f5fffa;
+    width: 40%;
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 25px;
+    margin-bottom: 60px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -30,7 +45,7 @@ body{
 .scrolling {
     width: 650px;
     height: 200px;
-    background: #D1D0C9;
+    background: #D0D2CA;
     overflow-y: auto;
     padding: 10px;
     border: 1px solid #ccc;
@@ -38,7 +53,6 @@ body{
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 .photos {
@@ -46,7 +60,12 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 90px;
+    background: #f5fffa;
+    padding: 25px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 12px;
 }
 
 .loader {
@@ -88,6 +107,7 @@ body{
     object-fit: cover;
     border-radius: 50%;
     transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.45);
 }
 
 .avi::after {
@@ -133,6 +153,7 @@ body{
     object-fit: cover;
     border-radius: 50%;
     transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.45);
 }
 
 .nehemiah::after {
@@ -178,6 +199,7 @@ body{
     object-fit: cover;
     border-radius: 50%;
     transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.45);
 }
 
 .hamed::after {
@@ -223,6 +245,7 @@ body{
     object-fit: cover;
     border-radius: 50%;
     transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.45);
 }
 
 .marion::after {
@@ -268,6 +291,7 @@ body{
     object-fit: cover;
     border-radius: 50%;
     transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.45);
 }
 
 .john::after {
@@ -313,6 +337,7 @@ body{
     object-fit: cover;
     border-radius: 50%;
     transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.45);
 }
 
 .jouji::after {
