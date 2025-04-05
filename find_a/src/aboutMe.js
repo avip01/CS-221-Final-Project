@@ -1,5 +1,6 @@
 import React from 'react';
 import './aboutUs.css';
+import './background.css';
 import aviImg from './assets/avi.png';
 import nehemiahImg from './assets/nehemiah.jpg';
 import hamedImg from './assets/hamed.jpg';
