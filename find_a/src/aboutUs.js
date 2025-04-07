@@ -101,10 +101,10 @@ function AboutUs() {
                 <div className="circleClick" onClick={(e) => e.stopPropagation()}>
                     {Person && socialLinks[Person] && (
                         <div className="socialLinks">
-                            <a href={socialLinks[Person].github} target="_blank" rel="noopener noreferrer">
+                            <a href={socialLinks[Person].github}>
                                 <img src={github} alt="GitHub"/>
                             </a>
-                            <a href={socialLinks[Person].linkedin} target="_blank" rel="noopener noreferrer">
+                            <a href={socialLinks[Person].linkedin}>
                                 <img src={linkedin} alt="LinkedIn"/>
                             </a>
                         </div>
