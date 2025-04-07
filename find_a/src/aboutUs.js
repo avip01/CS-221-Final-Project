@@ -7,6 +7,8 @@ import hamedImg from './assets/hamed.jpg';
 import marionImg from './assets/marion.jpg';
 import johnImg from './assets/john.jpg';
 import joujiImg from './assets/jouji.jpg';
+import github from './assets/github.png';
+import linkedin from'./assets/linkedin.png';
 
 function AboutUs() {
 
@@ -21,6 +23,13 @@ function AboutUs() {
     const closeOverlay = () => {
         setShowOverlay(false);
         setPerson("");
+    };
+
+    const socialLinks = {
+        aviClick: {
+            github: "https://github.com/avip01",
+            linkedin: "https://linkedin.com/in/arpatel2004"
+        }
     };
 
     return (
@@ -89,7 +98,18 @@ function AboutUs() {
             </div>
 
             <div className={`overlay ${showOverlay ? "overlayClick" : ""} ${Person}`} onClick={closeOverlay}>
-                <div className="circleClick"></div>
+                <div className="circleClick" onClick={(e) => e.stopPropagation()}>
+                    {Person && socialLinks[Person] && (
+                        <div className="socialLinks">
+                            <a href={socialLinks[Person].github} target="_blank" rel="noopener noreferrer">
+                                <img src={github} alt="GitHub"/>
+                            </a>
+                            <a href={socialLinks[Person].linkedin} target="_blank" rel="noopener noreferrer">
+                                <img src={linkedin} alt="LinkedIn"/>
+                            </a>
+                        </div>
+                    )}
+                </div>
             </div>
 
         </main>

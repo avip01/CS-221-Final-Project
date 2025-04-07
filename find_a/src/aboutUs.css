@@ -83,23 +83,55 @@
 }
 
 .overlay {
+    pointer-events: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.75);
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     z-index: 3;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay.overlayClick {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .circleClick {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: #44ae72;
+    background-color: #D0D2CA;
+    transform: scale(0.5);
+    transition: transform 0.3s ease;
+}
+
+.overlay.overlayClick .circleClick {
+    transform: scale(1);
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 45px;
+}
+
+.socialLinks a {
+    display: inline-block;
+}
+
+.socialLinks a img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
 }
 
 .overlay.overlayClick {
