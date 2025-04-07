@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import AboutUs from './aboutMe';
+import SignUp from './signUp';
 
 function App() {
   return (
       <div className="App">
-        <AboutUs />
+        <SignUp />
       </div>
   );
 }
