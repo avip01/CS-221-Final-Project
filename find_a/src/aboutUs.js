@@ -29,6 +29,26 @@ function AboutUs() {
         aviClick: {
             github: "https://github.com/avip01",
             linkedin: "https://linkedin.com/in/arpatel2004"
+        },
+        nehemiahClick: {
+            github: "https://github.com/nehemiahsand",
+            linkedin: "https://linkedin.com/in/nehemiah-sanders-2a992b2a5"
+        },
+        hamedClick: {
+            github: "https://github.com/hamedou0",
+            linkedin: "https://linkedin.com/in/mouhamadou1"
+        },
+        marionClick: {
+            github: "https://github.com/marioffic",
+            linkedin: "https://linkedin.com/in/marion-office"
+        },
+        johnClick: {
+            github: "https://github.com/john04213",
+            linkedin: "https://linkedin.com/in/john-hernandez-64b47528b"
+        },
+        joujiClick: {
+            github: "https://github.com/takedajouji",
+            linkedin: "https://linkedin.com/in/jouji-takeda172000"
         }
     };
 
@@ -97,8 +117,8 @@ function AboutUs() {
                 </div>
             </div>
 
-            <div className={`overlay ${showOverlay ? "overlayClick" : ""} ${Person}`} onClick={closeOverlay}>
-                <div className="circleClick" onClick={(e) => e.stopPropagation()}>
+            <div className={`overlay ${showOverlay ? "overlayClick" : ""} ${Person}`} onClick={closeOverlay}> {/* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals */}
+                <div className="circleClick" onClick={(e) => e.stopPropagation()}>  {/* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator */}
                     {Person && socialLinks[Person] && (
                         <div className="socialLinks">
                             <a href={socialLinks[Person].github}>
