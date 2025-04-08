@@ -114,6 +114,7 @@
 
 .overlay.overlayClick .circleClick {
     transform: scale(1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.85);
 }
 
 .socialLinks {
@@ -121,7 +122,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding-top: 45px;
+    padding-top: 50px;
 }
 
 .socialLinks a {
@@ -132,6 +133,15 @@
     width: 60px;
     height: 60px;
     cursor: pointer;
+}
+
+.circleClick .socialLinks a img {
+    background-color: white;
+    border-radius: 8px;
+    padding: 3px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .overlay.overlayClick {
@@ -404,25 +414,25 @@
 }
 
 .overlay.aviClick .circleClick {
-    background-color: #44ae72;
+    background-color: #1f3d33;
 }
 
 .overlay.nehemiahClick .circleClick {
-    background-color: #3285f3;
+    background-color: #1a3e6b;
 }
 
 .overlay.hamedClick .circleClick {
-    background-color: #333333;
+    background-color: #1f1f1f;
 }
 
 .overlay.marionClick .circleClick {
-    background-color: #A65959;
+    background-color: #4a2e2e;
 }
 
 .overlay.johnClick .circleClick {
-    background-color: #4E428A;
+    background-color: #2c264e;
 }
 
 .overlay.joujiClick .circleClick {
-    background-color: #3E2723;
+    background-color: #1c1412;
 }

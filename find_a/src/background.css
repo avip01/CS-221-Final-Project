@@ -3,7 +3,7 @@ body {
     padding: 0;
     background: url('./assets/appBackground.png') repeat-x;
     background-size: auto;
-    animation: pan 650s linear infinite;
+    animation: pan 375s linear infinite;
 }
 
 @keyframes pan {
