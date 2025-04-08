@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="fixed spacing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="Updated spacing and input fields">
       <change beforePath="$PROJECT_DIR$/find_a/src/signUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/signUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_a/src/signUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/signUp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +94,7 @@
       <workItem from="1742337886697" duration="2284000" />
       <workItem from="1742391931037" duration="27000" />
       <workItem from="1743629943453" duration="3778000" />
-      <workItem from="1744055997870" duration="7180000" />
+      <workItem from="1744055997870" duration="7522000" />
     </task>
     <task id="LOCAL-00001" summary="default files">
       <option name="closed" value="true" />
@@ -186,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743716530458</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updated spacing and input fields">
+      <option name="closed" value="true" />
+      <created>1744149193396</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744149193396</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +232,7 @@
     <MESSAGE value="removed unnecessary line breaks and fixed button" />
     <MESSAGE value="fixed spacing" />
     <MESSAGE value="behind the scenes file update" />
-    <option name="LAST_COMMIT_MESSAGE" value="behind the scenes file update" />
+    <MESSAGE value="Updated spacing and input fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated spacing and input fields" />
   </component>
 </project>
