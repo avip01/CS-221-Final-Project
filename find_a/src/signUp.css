@@ -25,8 +25,18 @@ body::before {
     height: 100%;
     background: url(assets/DowntownBirmingham.jpeg) center/cover no-repeat;
     filter: blur(10px);
-    transform: scale(1.02);
+    transform: scale(1.05);
     z-index: -1;
+}
+
+input {
+    font-size: 15px;
+}
+
+input::placeholder {
+    color: black;
+    opacity: 1;
+    font-size: 15px;
 }
 
 .main {
@@ -36,6 +46,24 @@ body::before {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+p a {
+    color: var(--block-color);
+}
+
+p a:hover {
+    color: var(--block-color);
+}
+
+#login-page {
+    color: var(--block-color);
 }
 
 #sign-up-form {
@@ -46,12 +74,13 @@ body::before {
     padding: 20px;
     border-radius: 20px;
     text-align: center;
-    width: 500px;
+    width: 100%;
     box-sizing: border-box;
 }
 
 .form-name {
     display: flex;
+    flex-direction: row;
     gap: 15px;
     width: 100%;
 }
@@ -79,7 +108,7 @@ body::before {
 
 .vehicle-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
 
@@ -106,4 +135,44 @@ form input {
 
 #sign-up-form button:hover {
     background-color: #44553a;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .main {
+        padding: 15px;
+        width: 100%;
+        max-width: 100%; /* Make sure it fits within the screen */
+    }
+
+    #sign-up-form {
+        width: 80vw;
+        padding: 15px;
+    }
+
+    .form-name {
+        flex-direction: column;
+    }
+}
+
+/* Tablet Responsiveness */
+@media (max-width: 900px) {
+    .vehicle-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2-column layout for tablets */
+    }
+}
+
+/* Large Screen Responsiveness */
+@media (min-width: 1200px) {
+    .main {
+        max-width: 700px; /* Limit the width on large screens */
+    }
+
+    #sign-up-form {
+        padding: 40px;
+    }
+
+    #sign-up-form button {
+        padding: 18px 25px;
+    }
 }

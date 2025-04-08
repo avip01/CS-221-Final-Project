@@ -2,33 +2,28 @@ import "./signUp.css";
 
 const SignUp = () => (
     <div className="main">
-        <h1>Logo</h1>
         <form action="mailto:ntsander@uab.edu" method="get" encType="text/plain">
             <div id="sign-up-form">
+                <h1>Create an account</h1>
                 <div className="form-name">
                     <div className="first-name">
-                        <label htmlFor="fName">First Name:</label>
-                        <input type="text" id="fName" name="fName" placeholder="Enter your first name" />
+                        <input type="text" id="fName" name="fName" placeholder="First Name" />
                     </div>
                     <div className="last-name">
-                        <label htmlFor="lName">Last Name:</label>
-                        <input type="text" id="lName" name="lName" placeholder="Enter your last name" />
+                        <input type="text" id="lName" name="lName" placeholder="Last Name" />
                     </div>
                 </div>
 
                 <div className="full-length-input">
-                    <label htmlFor="username">Username:</label>
-                    <input type="text" id="username" name="username" placeholder="Enter a username" />
+                    <input type="text" id="username" name="username" placeholder="Username" />
                 </div>
 
                 <div className="full-length-input">
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" />
+                    <input type="email" id="email" name="email" placeholder="Email" />
                 </div>
 
                 <div className="full-length-input">
-                    <label htmlFor="password">Password:</label>
-                    <input type="password" id="password" name="password" placeholder="Enter a password" />
+                    <input type="password" id="password" name="password" placeholder="Password" />
                 </div>
 
                 <b>Select your interests:</b>
@@ -44,6 +39,7 @@ const SignUp = () => (
                 <button type="submit">Sign Up!</button>
             </div>
         </form>
+        <p id="login-page">Already have an account?<br></br><a href="http://google.com">Login</a></p>
     </div>
 );
 
