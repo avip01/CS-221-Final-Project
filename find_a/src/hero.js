@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
+import './hero.css';
 
 function Hero() {
     const [currentTitle, setCurrentTitle] = useState(0);
@@ -33,8 +33,13 @@ function Hero() {
                 </div>
 
                 <div className="hero-buttons-container">
-                    <button className="hero-button signup-button">Sign Up</button>
-                    <button className="hero-button about-button">About Us</button>
+                    <a href="/signUp">
+                        <button className="hero-button signup-button">Sign Up</button>
+                    </a>
+                    <a href="/about">
+                        <button className="hero-button about-button">About Us</button>
+                    </a>
+
                 </div>
             </div>
 
@@ -43,5 +48,4 @@ function Hero() {
         </div>
     );
 }
-
 export default Hero;
