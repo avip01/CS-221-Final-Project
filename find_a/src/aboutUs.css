@@ -4,34 +4,34 @@ body, html {
 
 .aboutUs{
     text-align: center;
-    color: #333333;
+    color: #972D07;
     padding: 10px;
 }
 
 
 .description{
     text-align: center;
-    color: #333333;
-    background: linear-gradient(145deg, #f8fffa, #e6f7ec);
+    color: #582707;
+    background: linear-gradient(145deg, #FF4B3E, #582707);
     width: 80%;
     max-width: 800px;
     border-radius: 12px;
-    margin: 0 auto;
+    margin: 0 auto 60px;
     padding: 25px;
-    margin-bottom: 60px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 8px 20px rgba(231,76,60, 0.2);
 }
 
 .appTitle {
     flex: 1 0 100%;
     text-align: center;
     margin-bottom: 1.5rem;
-    color: #2e7d52;
+    color: #FFE548;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .scrolling {
@@ -39,11 +39,11 @@ body, html {
     height: auto;
     min-height: 150px;
     max-height: 300px;
-    background: rgba(255, 255, 255, 0.85);
+    background: #ffebc0;
     overflow-y: auto;
     padding: 10px;
-    border: 1px solid #ccc;
-    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.08);
+    border: 1px solid #FFB20F;
+    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.05), 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ body, html {
 
 .summary{
     font-family: "ivymode", sans-serif;
-    color: #2c3e50;
+    color: #333;
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
@@ -66,7 +66,7 @@ body, html {
     justify-content: center;
     align-items: center;
     gap: 90px;
-    background: #f5fffa;
+    background: linear-gradient(145deg, #FF766B, #7A3C1C);
     padding: 25px;
     width: 90%;
     margin: 0 auto;
@@ -297,7 +297,7 @@ body, html {
 }
 
 .loader4 {
-    border-top: 3px solid #A65959;
+    border-top: 3px solid #B00020;
     top: 50%;
     left: 50%;
 }
@@ -389,7 +389,7 @@ body, html {
 }
 
 .loader6 {
-    border-top: 3px solid #3E2723;
+    border-top: 3px solid #7A5B52;
     top: 50%;
     left: 50%;
 }
@@ -447,7 +447,7 @@ body, html {
 }
 
 .overlay.marionClick .circleClick {
-    background-color: #4a2e2e;
+    background-color: #4A0E0E;
 }
 
 .overlay.johnClick .circleClick {
@@ -455,7 +455,7 @@ body, html {
 }
 
 .overlay.joujiClick .circleClick {
-    background-color: #1c1412;
+    background-color: #332722;
 }
 
 @media screen and (min-width: 768px) {
