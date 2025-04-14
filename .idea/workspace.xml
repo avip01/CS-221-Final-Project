@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="Fixed login link">
+    <list default="true" id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="Implemented background and edited html elements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/find_a/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/find_a/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/find_a/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_a/src/aboutMe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_a/src/aboutUs.css" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/aboutUs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/find_a/src/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_a/src/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/landing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/find_a/src/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/find_a/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_a/src/signUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/signUp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_a/src/signUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/signUp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +35,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -101,7 +104,7 @@
       <workItem from="1742337886697" duration="2284000" />
       <workItem from="1742391931037" duration="27000" />
       <workItem from="1743629943453" duration="3778000" />
-      <workItem from="1744055997870" duration="20705000" />
+      <workItem from="1744055997870" duration="24726000" />
     </task>
     <task id="LOCAL-00001" summary="default files">
       <option name="closed" value="true" />
@@ -215,7 +218,31 @@
       <option name="project" value="LOCAL" />
       <updated>1744665262232</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Created dummy pages to test">
+      <option name="closed" value="true" />
+      <created>1744665305530</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744665305530</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Edited implementation of other's pages">
+      <option name="closed" value="true" />
+      <created>1744666131012</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1744666131012</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Implemented background and edited html elements">
+      <option name="closed" value="true" />
+      <created>1744668734247</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1744668734247</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +259,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Nehemiah" />
+                        <option value="sign-up-page" />
                       </list>
                     </value>
                   </entry>
@@ -258,6 +285,9 @@
     <MESSAGE value="Updated spacing and input fields" />
     <MESSAGE value="Removed redundant &quot;px&quot;" />
     <MESSAGE value="Fixed login link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed login link" />
+    <MESSAGE value="Created dummy pages to test" />
+    <MESSAGE value="Edited implementation of other's pages" />
+    <MESSAGE value="Implemented background and edited html elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented background and edited html elements" />
   </component>
 </project>

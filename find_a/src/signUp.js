@@ -1,4 +1,5 @@
 import "./signUp.css";
+import "./background.css";
 import { Link } from 'react-router-dom';
 
 const SignUp = () => (
@@ -29,10 +30,10 @@ const SignUp = () => (
 
                 <b>Select your interests:</b>
                 <div className="vehicle-grid">
-                    {["Sports", "Music", "Hiking", "Art", "Food", "Thrill Seeker"].map((interest, index) => (
+                    {["Sports", "Music", "Hiking", "Art", "Food", "Thrill Seeking"].map((interest, index) => (
                         <div key={index}>
                             <input type="checkbox" id={`interest${index}`} name="interests" value={interest}/>
-                            <label htmlFor={`interest${index}`}> I have a {interest.toLowerCase()}</label>
+                            <label htmlFor={`interest${index}`}>{interest}</label>
                         </div>
                     ))}
                 </div>

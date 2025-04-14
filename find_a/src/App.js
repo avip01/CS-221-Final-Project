@@ -3,7 +3,7 @@ import Landing from './landing';
 import Login from './login';
 import SignUp from './signUp';
 import Account from './account';
-import AboutUs from './aboutMe';
+import AboutUs from './aboutUs';
 import Settings from './settings';
 
 function App() {
