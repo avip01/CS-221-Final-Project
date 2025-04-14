@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="Updated spacing and input fields">
-      <change beforePath="$PROJECT_DIR$/find_a/src/signUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/signUp.css" afterDir="false" />
+    <list default="true" id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="Fixed login link">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_a/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_a/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_a/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_a/src/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_a/src/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/landing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_a/src/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_a/src/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/find_a/src/settings.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +101,7 @@
       <workItem from="1742337886697" duration="2284000" />
       <workItem from="1742391931037" duration="27000" />
       <workItem from="1743629943453" duration="3778000" />
-      <workItem from="1744055997870" duration="7522000" />
+      <workItem from="1744055997870" duration="20705000" />
     </task>
     <task id="LOCAL-00001" summary="default files">
       <option name="closed" value="true" />
@@ -192,7 +199,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744149193396</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Removed redundant &quot;px&quot;">
+      <option name="closed" value="true" />
+      <created>1744149495851</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744149495851</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fixed login link">
+      <option name="closed" value="true" />
+      <created>1744665262232</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744665262232</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +256,8 @@
     <MESSAGE value="fixed spacing" />
     <MESSAGE value="behind the scenes file update" />
     <MESSAGE value="Updated spacing and input fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated spacing and input fields" />
+    <MESSAGE value="Removed redundant &quot;px&quot;" />
+    <MESSAGE value="Fixed login link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed login link" />
   </component>
 </project>
