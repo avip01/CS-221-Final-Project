@@ -12,7 +12,7 @@ const AccountPage = () => {
                 <div className="main-content">
                     <div className="left-column">
                         <div className="pfp">
-                        <img className ="userpfp" src ={imageSrcPlaceholder} alt="Profile Picture" />
+                        <img className ="userPfp" src ={imageSrcPlaceholder} alt="Profile Picture" />
                         </div>
 
                         <div className="user-info">
@@ -36,6 +36,7 @@ const AccountPage = () => {
                             </form>
                         </div>
                     </div>
+                </div>
 
                     {/* friends section */}
                     <div className="friends-section">
@@ -52,8 +53,6 @@ const AccountPage = () => {
                                 ))}
                             </div>
                     </div>
-
-                </div>
             </div>
         </div>
     );
@@ -72,6 +71,7 @@ const FriendCard = ({name, username, bio, imageSrc}) =>{
         </div>
     );
 };
+
 {/*mock data for friends */}
 const friends = [
     {id: 1, name: 'Name', username: 'Username', bio: 'Bio'},
@@ -81,6 +81,20 @@ const friends = [
     {id: 5, name: 'Name', username: 'Username', bio: 'Bio'},
     {id: 6, name: 'Name', username: 'Username', bio: 'Bio'},
     ];
+
+    const maximumWordCount = 500;
+    const textArea = document.querySelector('biographyTextArea');
+    if(textArea) {
+        textArea.addEventListener('input', function (e) {
+            const inputText = e.target.value;
+            const wordsArray = inputText.split(' ').filter(word => word.length > 0);
+            if (wordsArray.length > maximumWordCount) {
+                const trimmedWords = wordsArray.slice(maximumWordCount);
+                const newText = trimmedWords.join(' ');
+                e.target.value = newText;
+            }
+        });
+    }
 
 
 
