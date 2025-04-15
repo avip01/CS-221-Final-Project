@@ -8,3 +8,10 @@
     color: #333333;
     box-sizing: border-box;
 }
+.settings-heading {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 40px 0;
+    color: #333366;
+}
