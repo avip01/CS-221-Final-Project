@@ -1,6 +1,3 @@
-import React, { useState } from 'react';
-import './settings.css';
-
 const SettingsPage = () => {
     const [isDark, setIsDark] = useState(false);
     const [fontSizeValue, setFontSizeValue] = useState(50);
@@ -10,8 +7,25 @@ const SettingsPage = () => {
     const [hoveredButton, setHoveredButton] = useState(null);
 
     return (
+        <div className="settings-container">
+            <h1 className="settings-heading">Settings ⚙️</h1>
 
-    );
-};
+            <div className="settings-flex-container">
+                <div className="settings-column">
+                    <div className="section-header">
+                        <div className="section-title">Appearance</div>
+                    </div>
 
-export default SettingsPage;
+                    <div className="settings-row">
+                        <div className="pill-box">
+                            Dark Mode Toggle {isDark ? 'on' : 'off'}
+                        </div>
+                        <label className="switch">
+                            <input
+                                type="checkbox"
+                                checked={isDark}
+                                onChange={() => setIsDark(!isDark)}
+                            />
+                            <span className="slider round"></span>
+                        </label>
+                    </div>
