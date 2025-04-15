@@ -28,14 +28,16 @@ function Header() {
       <div className="navbar-center-text">
         Find Me A <span style={{ fontWeight: 'bold' }}>{words[currentWordIndex]}</span>
       </div>
-      
-      {isLanding && (
-        <div className="header-buttons">
-          <Link to="./about" className="header-button">About</Link>
-          <Link to="./contact" className="header-button">Contact</Link>
-        </div>
-      )}
-    </header>
+        {/* If on landing page, display buttons. If not, create placeholder to keep overall layout*/}
+  {isLanding ? (
+    <div className="header-buttons">
+      <Link to="/about" className="header-button">About</Link>
+      <Link to="/contact" className="header-button">Contact</Link>
+    </div>
+  ) : (
+    <div className="header-buttons placeholder" />
+  )}
+</header>
   );
 }
 
