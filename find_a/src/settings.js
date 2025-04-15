@@ -60,3 +60,30 @@ const SettingsPage = () => {
                             <span className="slider round"></span>
                         </label>
                     </div>
+                    <div className="settings-row">
+                        <div className="pill-box">
+                            Toggle Phone Notifications
+                        </div>
+                        <label className="switch">
+                            <input
+                                type="checkbox"
+                                checked={phoneNotifications}
+                                onChange={() => setPhoneNotifications(!phoneNotifications)}
+                            />
+                            <span className="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+
+                <div className="settings-column">
+                    <div className="section-header">
+                        <div className="section-title">Account Settings</div>
+                    </div>
+
+                    <button
+                        className={`settings-button ${hoveredButton === 'email' ? 'button-hover' : ''}`}
+                        onMouseEnter={() => setHoveredButton('email')}
+                        onMouseLeave={() => setHoveredButton(null)}
+                    >
+                        Email
+                    </button>
