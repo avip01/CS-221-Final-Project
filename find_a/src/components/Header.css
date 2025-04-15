@@ -1,7 +1,7 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 1.5vw;  
     background-color: #f59834;  
     position: relative;
@@ -18,10 +18,40 @@
     top: 0;
     left: 0;
   }
+
+  .header-buttons {
+    display: flex;
+    gap: 1vw;
+  }
+
+  .header-button {
+    background-color: white;
+    color: #f59834;
+    border: none;
+    padding: 0.6vw 1.2vw;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1vw;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  
+  .navbar-logo:hover {
+    width: 4.2vw ;
+    height: 4.2vw;
+  }
   
   .navbar-center-text {
     font-size: 25px;  /* Slightly smaller font size */
     color: white;
     font-family: 'Arial', sans-serif;
     text-align: center;
+    margin-left: 50px;
   }
+
+
+.header-button:hover {
+  background-color: #f2f2f2;
+  color: #d96c00;
+}
