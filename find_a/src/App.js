@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Header from './components/header';
 import AboutUs from './aboutMe';
 import Landing from './landing';
 import './App.css';
@@ -8,7 +8,7 @@ import { Routes, Route} from 'react-router-dom';
 function App() {
   return (
         <div className="App">
-          <Navbar /> 
+          <Header /> 
 
           <main className="content">
             <Routes> {/* Define routes */}
