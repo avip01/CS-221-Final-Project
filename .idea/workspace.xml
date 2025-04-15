@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="edited warnings from code analysis" />
+    <list default="true" id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="removed files to get rid of conflict" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +93,7 @@
       <workItem from="1742337886697" duration="2284000" />
       <workItem from="1742391931037" duration="27000" />
       <workItem from="1743629943453" duration="3778000" />
-      <workItem from="1744055997870" duration="28897000" />
+      <workItem from="1744055997870" duration="29300000" />
     </task>
     <task id="LOCAL-00001" summary="default files">
       <option name="closed" value="true" />
@@ -263,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744754092487</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="removed files to get rid of conflict">
+      <option name="closed" value="true" />
+      <created>1744754512263</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1744754512263</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +321,7 @@
     <MESSAGE value="misc file changes" />
     <MESSAGE value="deleted dummy pages to be able to push and merge to main" />
     <MESSAGE value="edited warnings from code analysis" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited warnings from code analysis" />
+    <MESSAGE value="removed files to get rid of conflict" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed files to get rid of conflict" />
   </component>
 </project>
