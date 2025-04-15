@@ -21,3 +21,21 @@
     gap: 30px;
     justify-content: center;
 }
+
+.settings-column {
+    flex: 1;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section-header {
+    background-color: #5453c9;
+    padding: 12px 20px;
+    border-radius: 6px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
