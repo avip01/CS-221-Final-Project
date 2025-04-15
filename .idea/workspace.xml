@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="removed files to get rid of conflict" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="sign-up-page" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nehemiahsand&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/avip01/CS-221-Final-Project.git&quot;,
+    &quot;accountId&quot;: &quot;583383d0-e8a8-4f81-898d-3ee65628a184&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2uVZPzHhcxZogo5UznFyk8uIIZ0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sign-up-page&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nehemiahsanders/Library/Mobile Documents/com~apple~CloudDocs/vs code/CS-221-Final-Project/find_a/src/assets&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/Users/nehemiahsanders/Library/Application Support/JetBrains/WebStorm2024.3/node/versions/22.14.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/find_a/src/assets" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e0912b1-dc6a-49d7-a5a3-dbbb2a46f6e0" name="Changes" comment="" />
+      <created>1742335682447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742335682447</updated>
+      <workItem from="1742335683967" duration="2197000" />
+      <workItem from="1742337886697" duration="2284000" />
+      <workItem from="1742391931037" duration="27000" />
+      <workItem from="1743629943453" duration="3778000" />
+      <workItem from="1744055997870" duration="29300000" />
+    </task>
+    <task id="LOCAL-00001" summary="default files">
+      <option name="closed" value="true" />
+      <created>1742337754192</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742337754192</updated>
+    </task>
+    <task id="LOCAL-00002" summary="default files">
+      <option name="closed" value="true" />
+      <created>1743630618000</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743630618000</updated>
+    </task>
+    <task id="LOCAL-00003" summary="default files">
+      <option name="closed" value="true" />
+      <created>1743630687405</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743630687405</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Downloaded npm">
+      <option name="closed" value="true" />
+      <created>1743630966203</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743630966203</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Copied html, css, and files from &quot;UAB-CS-221&quot; repo to implement into react.">
+      <option name="closed" value="true" />
+      <created>1743633399569</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743633399569</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Edited implementation of sign up page">
+      <option name="closed" value="true" />
+      <created>1743633555367</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743633555367</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Edited implementation of my html from &quot;UAB-CS-221&quot;">
+      <option name="closed" value="true" />
+      <created>1743634274841</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743634274841</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Folder changes">
+      <option name="closed" value="true" />
+      <created>1743634284622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743634284622</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed spacing for form fields">
+      <option name="closed" value="true" />
+      <created>1743696388234</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743696388234</updated>
+    </task>
+    <task id="LOCAL-00010" summary="removed unnecessary line breaks and fixed button">
+      <option name="closed" value="true" />
+      <created>1743697665569</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743697665569</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fixed spacing">
+      <option name="closed" value="true" />
+      <created>1743716530458</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1743716530458</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated spacing and input fields">
+      <option name="closed" value="true" />
+      <created>1744149193396</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744149193396</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Removed redundant &quot;px&quot;">
+      <option name="closed" value="true" />
+      <created>1744149495851</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744149495851</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fixed login link">
+      <option name="closed" value="true" />
+      <created>1744665262232</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744665262232</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Created dummy pages to test">
+      <option name="closed" value="true" />
+      <created>1744665305530</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744665305530</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Edited implementation of other's pages">
+      <option name="closed" value="true" />
+      <created>1744666131012</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1744666131012</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Implemented background and edited html elements">
+      <option name="closed" value="true" />
+      <created>1744668734247</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1744668734247</updated>
+    </task>
+    <task id="LOCAL-00018" summary="undid merge. Keeping files">
+      <option name="closed" value="true" />
+      <created>1744669504646</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1744669504646</updated>
+    </task>
+    <task id="LOCAL-00019" summary="misc file changes">
+      <option name="closed" value="true" />
+      <created>1744669521755</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1744669521755</updated>
+    </task>
+    <task id="LOCAL-00020" summary="deleted dummy pages to be able to push and merge to main">
+      <option name="closed" value="true" />
+      <created>1744754045329</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1744754045329</updated>
+    </task>
+    <task id="LOCAL-00021" summary="edited warnings from code analysis">
+      <option name="closed" value="true" />
+      <created>1744754092487</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1744754092487</updated>
+    </task>
+    <task id="LOCAL-00022" summary="removed files to get rid of conflict">
+      <option name="closed" value="true" />
+      <created>1744754512263</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1744754512263</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="sign-up-page" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="default files" />
+    <MESSAGE value="Downloaded npm" />
+    <MESSAGE value="Copied html, css, and files from &quot;UAB-CS-221&quot; repo to implement into react." />
+    <MESSAGE value="Edited implementation of sign up page" />
+    <MESSAGE value="Edited implementation of my html from &quot;UAB-CS-221&quot;" />
+    <MESSAGE value="Folder changes" />
+    <MESSAGE value="fixed spacing for form fields" />
+    <MESSAGE value="removed unnecessary line breaks and fixed button" />
+    <MESSAGE value="fixed spacing" />
+    <MESSAGE value="behind the scenes file update" />
+    <MESSAGE value="Updated spacing and input fields" />
+    <MESSAGE value="Removed redundant &quot;px&quot;" />
+    <MESSAGE value="Fixed login link" />
+    <MESSAGE value="Created dummy pages to test" />
+    <MESSAGE value="Edited implementation of other's pages" />
+    <MESSAGE value="Implemented background and edited html elements" />
+    <MESSAGE value="undid merge. Keeping files" />
+    <MESSAGE value="misc file changes" />
+    <MESSAGE value="deleted dummy pages to be able to push and merge to main" />
+    <MESSAGE value="edited warnings from code analysis" />
+    <MESSAGE value="removed files to get rid of conflict" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed files to get rid of conflict" />
+  </component>
+</project>

@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./assets/appBackground2.png') repeat-x;
+    background-size: auto;
+    animation: pan 405s linear infinite;
+}
+
+@keyframes pan {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -6009px 0;
+    }
+}
