@@ -1,250 +1,67 @@
 import React from 'react';
-import {
-    Box,
-    Container,
-    Heading,
-    VStack,
-    HStack,
-    Text,
-    Switch,
-    Button,
-    Slider,
-    SliderTrack,
-    SliderFilledTrack,
-    SliderThumb,
-    useColorMode,
-    Divider,
-    Icon,
-    Flex
-} from '@chakra-ui/react';
-import { FiSettings } from 'react-icons/fi';
 
 const SettingsPage = () => {
-    const { colorMode, toggleColorMode } = useColorMode();
-    const isDark = colorMode === 'dark';
-
     return (
-        <Container maxW="container.xl" py={8} px={4} bg="gray.100" minH="100vh">
-            <VStack spacing={8} align="center" w="full">
-                {/* Header */}
-                <HStack spacing={2} justifyContent="center">
-                    <Heading size="xl">Settings</Heading>
-                    <Icon as={FiSettings} boxSize={8} />
-                </HStack>
+        <div style={{ padding: '40px', maxWidth: '800px', margin: '0 auto' }}>
+            <h1 style={{ textAlign: 'center', marginBottom: '30px' }}>Settings ⚙️</h1>
 
-                {/* Main Content Container */}
-                <Flex
-                    w="full"
-                    direction={{ base: 'column', md: 'row' }}
-                    gap={6}
-                    justify="space-between"
-                >
-                    {/* Left Column */}
-                    <VStack
-                        spacing={6}
-                        align="stretch"
-                        flex="1"
-                        maxW={{ md: '450px' }}
-                    >
-                        {/* Appearance Section */}
-                        <Box
-                            bg="green.700"
-                            py={3}
-                            px={5}
-                            borderRadius="md"
-                            color="white"
-                        >
-                            <Text fontSize="lg" fontWeight="medium">Appearance:</Text>
-                        </Box>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '30px' }}>
+                <div style={{ flex: 1, minWidth: '300px' }}>
+                    <h2>Appearance</h2>
+                    <div style={{ marginBottom: '15px' }}>
+                        <label>
+                            Dark Mode:
+                            <input type="checkbox" style={{ marginLeft: '10px' }} />
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Font Size:
+                            <input type="range" min="0" max="100" style={{ marginLeft: '10px' }} />
+                        </label>
+                    </div>
 
-                        {/* Dark Mode Toggle */}
-                        <Box>
-                            <HStack spacing={4} mb={3}>
-                                <Box
-                                    bg="green.700"
-                                    py={2}
-                                    px={4}
-                                    borderRadius="full"
-                                    color="white"
-                                    w="180px"
-                                >
-                                    <Text textAlign="center">
-                                        Dark Mode Toggle {isDark ? 'on' : 'off'}
-                                    </Text>
-                                </Box>
-                                <Switch
-                                    isChecked={isDark}
-                                    onChange={toggleColorMode}
-                                    colorScheme="green"
-                                />
-                            </HStack>
+                    <h2 style={{ marginTop: '30px' }}>Notifications</h2>
+                    <div style={{ marginBottom: '15px' }}>
+                        <label>
+                            Email Notifications:
+                            <input type="checkbox" style={{ marginLeft: '10px' }} />
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Phone Notifications:
+                            <input type="checkbox" style={{ marginLeft: '10px' }} />
+                        </label>
+                    </div>
+                </div>
 
-                            {/* Font Size */}
-                            <HStack spacing={4}>
-                                <Box
-                                    bg="green.700"
-                                    py={2}
-                                    px={4}
-                                    borderRadius="full"
-                                    color="white"
-                                    w="180px"
-                                >
-                                    <Text textAlign="center">Font Size</Text>
-                                </Box>
-                                <Slider
-                                    defaultValue={50}
-                                    colorScheme="green"
-                                    w="120px"
-                                >
-                                    <SliderTrack bg="gray.300">
-                                        <SliderFilledTrack bg="green.500" />
-                                    </SliderTrack>
-                                    <SliderThumb boxSize={4} bg="white" />
-                                </Slider>
-                            </HStack>
-                        </Box>
-
-                        {/* Notifications Section */}
-                        <Box
-                            bg="green.700"
-                            py={3}
-                            px={5}
-                            borderRadius="md"
-                            color="white"
-                            mt={6}
-                        >
-                            <Text fontSize="lg" fontWeight="medium">Notifications:</Text>
-                        </Box>
-
-                        {/* Email Notifications */}
-                        <HStack spacing={4}>
-                            <Box
-                                bg="green.700"
-                                py={2}
-                                px={4}
-                                borderRadius="full"
-                                color="white"
-                                w="180px"
-                            >
-                                <Text textAlign="center">Toggle Email Notifications</Text>
-                            </Box>
-                            <Switch colorScheme="green" />
-                        </HStack>
-
-                        {/* Phone Notifications */}
-                        <HStack spacing={4}>
-                            <Box
-                                bg="green.700"
-                                py={2}
-                                px={4}
-                                borderRadius="full"
-                                color="white"
-                                w="180px"
-                            >
-                                <Text textAlign="center">Toggle Phone Notifications</Text>
-                            </Box>
-                            <Switch colorScheme="green" />
-                        </HStack>
-                    </VStack>
-
-                    {/* Right Column */}
-                    <VStack
-                        spacing={6}
-                        align="stretch"
-                        flex="1"
-                        maxW={{ md: '450px' }}
-                    >
-                        {/* Account Settings Section */}
-                        <Box
-                            bg="green.700"
-                            py={3}
-                            px={5}
-                            borderRadius="md"
-                            color="white"
-                        >
-                            <Text fontSize="lg" fontWeight="medium">Account Settings:</Text>
-                        </Box>
-
-                        {/* Email Button */}
-                        <Button
-                            bg="green.700"
-                            color="white"
-                            _hover={{ bg: 'green.600' }}
-                            size="md"
-                            borderRadius="md"
-                            w="130px"
-                        >
-                            Email:
-                        </Button>
-
-                        {/* Password Button */}
-                        <Button
-                            bg="green.700"
-                            color="white"
-                            _hover={{ bg: 'green.600' }}
-                            size="md"
-                            borderRadius="md"
-                            w="130px"
-                        >
-                            Password:
-                        </Button>
-
-                        {/* Delete Account Button */}
-                        <Button
-                            bg="green.700"
-                            color="white"
-                            _hover={{ bg: 'green.600' }}
-                            size="md"
-                            borderRadius="md"
-                            w="160px"
-                        >
+                <div style={{ flex: 1, minWidth: '300px' }}>
+                    <h2>Account Settings</h2>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                        <button style={{ width: '150px', padding: '8px', backgroundColor: '#5C6E58', color: 'white', border: 'none', borderRadius: '4px' }}>
+                            Email
+                        </button>
+                        <button style={{ width: '150px', padding: '8px', backgroundColor: '#5C6E58', color: 'white', border: 'none', borderRadius: '4px' }}>
+                            Password
+                        </button>
+                        <button style={{ width: '150px', padding: '8px', backgroundColor: '#5C6E58', color: 'white', border: 'none', borderRadius: '4px' }}>
                             Delete Account
-                        </Button>
-
-                        {/* Reset 2FA Button */}
-                        <Button
-                            bg="green.700"
-                            color="white"
-                            _hover={{ bg: 'green.600' }}
-                            size="md"
-                            borderRadius="md"
-                            w="130px"
-                        >
+                        </button>
+                        <button style={{ width: '150px', padding: '8px', backgroundColor: '#5C6E58', color: 'white', border: 'none', borderRadius: '4px' }}>
                             Reset 2FA
-                        </Button>
+                        </button>
+                    </div>
 
-                        {/* Privacy Section */}
-                        <Box
-                            bg="green.700"
-                            py={3}
-                            px={5}
-                            borderRadius="md"
-                            color="white"
-                            mt={4}
-                        >
-                            <Text fontSize="lg" fontWeight="medium">Privacy</Text>
-                        </Box>
-
-                        {/* Profile Visibility */}
-                        <HStack spacing={4} align="center">
-                            <Box
-                                bg="green.700"
-                                py={2}
-                                px={4}
-                                borderRadius="full"
-                                color="white"
-                                w="160px"
-                            >
-                                <Text textAlign="center">Profile Visibility</Text>
-                            </Box>
-                            <Text fontSize="sm" color="gray.700">Private</Text>
-                            <Switch colorScheme="green" />
-                            <Text fontSize="sm" color="gray.700">Public</Text>
-                        </HStack>
-                    </VStack>
-                </Flex>
-            </VStack>
-        </Container>
+                    <h2 style={{ marginTop: '30px' }}>Privacy</h2>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                        <span>Private</span>
+                        <input type="checkbox" />
+                        <span>Public</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 };
 
