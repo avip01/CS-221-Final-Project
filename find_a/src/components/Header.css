@@ -5,6 +5,7 @@
     padding: 1.5vw;  
     background-color: #f59834;  
     position: relative;
+    min-height: 3vw;
   }
   
   .navbar-logo {
@@ -55,3 +56,4 @@
   background-color: #f2f2f2;
   color: #d96c00;
 }
+
