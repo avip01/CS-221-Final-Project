@@ -87,3 +87,27 @@ const SettingsPage = () => {
                     >
                         Email
                     </button>
+
+                    <button
+                        className={`settings-button ${hoveredButton === 'password' ? 'button-hover' : ''}`}
+                        onMouseEnter={() => setHoveredButton('password')}
+                        onMouseLeave={() => setHoveredButton(null)}
+                    >
+                        Password
+                    </button>
+
+                    <button
+                        className={`settings-button ${hoveredButton === 'delete' ? 'button-hover' : ''}`}
+                        onMouseEnter={() => setHoveredButton('delete')}
+                        onMouseLeave={() => setHoveredButton(null)}
+                    >
+                        Delete Account
+                    </button>
+
+                    <button
+                        className={`settings-button ${hoveredButton === '2fa' ? 'button-hover' : ''}`}
+                        onMouseEnter={() => setHoveredButton('2fa')}
+                        onMouseLeave={() => setHoveredButton(null)}
+                    >
+                        Reset 2FA
+                    </button>
