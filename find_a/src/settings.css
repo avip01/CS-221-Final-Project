@@ -44,3 +44,20 @@
     font-size: 18px;
     font-weight: medium;
 }
+
+.pill-box {
+    background-color: #5453c9;
+    padding: 10px 16px;
+    border-radius: 999px;
+    color: #ffffff;
+    width: 180px;
+    text-align: center;
+    margin-right: 16px;
+}
+
+.settings-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
