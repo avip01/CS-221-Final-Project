@@ -11,13 +11,12 @@ function App() {
           <Header /> 
 
           <main className="content">
-            <Routes> {/* Define routes */}
-              {/* Route for the landing page */}
-              <Route path="/" element={<Landing />} />
-              <Route path="/about" element={<AboutUs />} />
-              <Route path="/landing" element={<Landing />} />
-              // routes to othe pages go here
-            </Routes>
+          <Routes>
+          <Route path="/" element={<Landing />} />  A
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/landing" element={<Landing />} /> 
+          </Routes>
+
           </main>
         </div>
   );
