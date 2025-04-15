@@ -1,8 +1,13 @@
-import React from 'react';
-import SettingsPage from './settings';
+import logo from './logo.svg';
+import './App.css';
+import AboutUs from './aboutUs';
 
 function App() {
-    return <SettingsPage />;
+  return (
+      <div className="App">
+        <AboutUs />
+      </div>
+  );
 }
 
 export default App;
