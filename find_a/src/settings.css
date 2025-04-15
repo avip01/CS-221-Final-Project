@@ -149,3 +149,21 @@ input:checked + .slider:before {
     background: #5453c9;
     cursor: pointer;
 }
+
+.slider-input::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #5453c9;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .settings-flex-container {
+        flex-direction: column;
+    }
+
+    .settings-column {
+        width: 100%;
+    }
+}
