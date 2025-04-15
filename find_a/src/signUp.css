@@ -1,0 +1,168 @@
+:root {
+    --block-color: #ebeae2;
+    --button-color: #5a6651;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    z-index: 1;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+p {
+    margin-top: 5px;
+    text-align: center;
+}
+
+p a {
+    color: var(--block-color);
+}
+
+p a:hover {
+    color: var(--block-color);
+}
+
+#login-page {
+    color: var(--block-color);
+}
+
+#sign-up-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--block-color);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-name {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+}
+
+.first-name, .last-name {
+    width: 100%;
+}
+
+.full-length-input {
+    width: 100%;
+}
+
+.first-name input,
+.last-name input,
+.full-length-input input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 16px 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.vehicle-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.vehicle-grid div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+form input::placeholder {
+    color: black;
+    opacity: 1;
+    font-size: inherit;
+}
+
+#sign-up-form button {
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 20px;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: inherit;
+}
+
+#sign-up-form button:hover {
+    background-color: #44553a;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main {
+        padding: 15px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #sign-up-form {
+        width: 80vw;
+        padding: 15px;
+    }
+
+    .form-name {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px) {
+    .vehicle-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .main {
+        max-width: 700px;
+    }
+
+    #sign-up-form {
+        padding: 40px;
+    }
+
+    #sign-up-form button {
+        padding: 18px 25px;
+    }
+}
