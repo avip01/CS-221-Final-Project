@@ -1,0 +1,40 @@
+import React, { useEffect, useState } from 'react';
+import './Header.css';
+import { useLocation, Link } from 'react-router-dom';
+
+function Header() {
+  // I only want Navigation links on my landing/root page, so I creating a conditional to check for that
+  const location = useLocation();
+  console.log(location.pathname);
+  const isLanding = location.pathname === '/' || location.pathname === '/landing';
+
+
+  const words = ['mentor', 'friend', 'colleague', 'classmate', 'critic'];
+  const [currentWordIndex, setCurrentWordIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
+    }, 1000); 
+
+    return () => clearInterval(interval); 
+  }, []);
+
+  return (
+    <header className="header">
+      <img src={require('../assets/marion.jpg')} alt="mar" className="navbar-logo" />
+      <div className="navbar-center-text">
+        Find Me A <span style={{ fontWeight: 'bold' }}>{words[currentWordIndex]}</span>
+      </div>
+      
+      {isLanding && (
+        <div className="header-buttons">
+          <Link to="./about" className="header-button">About</Link>
+          <Link to="./contact" className="header-button">Contact</Link>
+        </div>
+      )}
+    </header>
+  );
+}
+
+export default Header;
