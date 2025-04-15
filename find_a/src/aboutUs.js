@@ -54,9 +54,9 @@ function AboutUs() {
 
     return (
         <main>
-            <div className="aboutUs">
-                <h1>Find Me A</h1>
-            </div>
+            {/*<div className="aboutUs">*/}
+            {/*    <h1>Find Me A</h1>*/}
+            {/*</div>*/}
 
             <div className="description">
                 <h1 className="appTitle">About Us</h1>
