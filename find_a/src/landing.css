@@ -1,0 +1,37 @@
+
+.landing-container {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    padding-top: 1vw;
+}
+
+.body {
+    
+}
+
+#event-bar {
+    display: flex;
+    flex-direction: column;
+    width: 20%; 
+    padding: 1.2vw;
+    box-sizing: border-box;
+    gap: 10px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+.event {
+    border-radius: 30px;
+    background-color: orange; 
+    padding: 2vw;
+    margin-bottom: 1vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-content {
+    flex-grow: 1; /* Take up the remaining space */
+    padding: 2vw;
+    box-sizing: border-box;
+}
