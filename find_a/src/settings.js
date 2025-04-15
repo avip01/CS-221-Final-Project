@@ -29,3 +29,34 @@ const SettingsPage = () => {
                             <span className="slider round"></span>
                         </label>
                     </div>
+                    <div className="settings-row">
+                        <div className="pill-box">
+                            Font Size
+                        </div>
+                        <input
+                            type="range"
+                            min="0"
+                            max="100"
+                            value={fontSizeValue}
+                            onChange={(e) => setFontSizeValue(e.target.value)}
+                            className="slider-input"
+                        />
+                    </div>
+
+                    <div className="section-header">
+                        <div className="section-title">Notifications</div>
+                    </div>
+
+                    <div className="settings-row">
+                        <div className="pill-box">
+                            Toggle Email Notifications
+                        </div>
+                        <label className="switch">
+                            <input
+                                type="checkbox"
+                                checked={emailNotifications}
+                                onChange={() => setEmailNotifications(!emailNotifications)}
+                            />
+                            <span className="slider round"></span>
+                        </label>
+                    </div>
