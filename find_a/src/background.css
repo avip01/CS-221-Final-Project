@@ -1,9 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('./assets/appBackground.png') repeat-x;
+    background: url('./assets/appBackground2.png') repeat-x;
     background-size: auto;
-    animation: pan 375s linear infinite;
+    animation: pan 405s linear infinite;
 }
 
 @keyframes pan {
