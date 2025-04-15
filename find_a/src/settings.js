@@ -111,3 +111,30 @@ const SettingsPage = () => {
                     >
                         Reset 2FA
                     </button>
+
+                    <div className="section-header">
+                        <div className="section-title">Privacy</div>
+                    </div>
+
+                    <div className="settings-row">
+                        <div className="pill-box">
+                            Profile Visibility
+                        </div>
+                        <span className="text-label">Private</span>
+                        <label className="switch">
+                            <input
+                                type="checkbox"
+                                checked={isPublic}
+                                onChange={() => setIsPublic(!isPublic)}
+                            />
+                            <span className="slider round"></span>
+                        </label>
+                        <span className="text-label">Public</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default SettingsPage;
