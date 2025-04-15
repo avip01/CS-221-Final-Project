@@ -22,7 +22,9 @@ function Header() {
 
   return (
     <header className="header">
-      <img src={require('../assets/marion.jpg')} alt="mar" className="navbar-logo" />
+      <Link to="/" className="navbar-logo-link">
+        <img src={require('../assets/marion.jpg')} alt="mar" className="navbar-logo" />
+      </Link>
       <div className="navbar-center-text">
         Find Me A <span style={{ fontWeight: 'bold' }}>{words[currentWordIndex]}</span>
       </div>
