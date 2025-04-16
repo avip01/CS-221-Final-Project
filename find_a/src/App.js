@@ -12,7 +12,7 @@ function App() {
 
           <main className="content">
           <Routes>
-          <Route path="/" element={<Landing />} />  A
+          <Route path="/" element={<Landing />} />  
           <Route path="/about" element={<AboutUs />} />
           <Route path="/landing" element={<Landing />} /> 
           </Routes>

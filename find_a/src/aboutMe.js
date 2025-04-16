@@ -10,9 +10,7 @@ import joujiImg from './assets/jouji.jpg';
 function AboutUs() {
     return (
         <main>
-            <div className="aboutUs">
-                <h1>About Us</h1>
-            </div>
+
 
             <div className="description">
                 <h1 className="appTitle">Find Me A</h1>
