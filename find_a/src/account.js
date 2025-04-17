@@ -8,6 +8,10 @@ const AccountPage = () => {
         <div className="wrapper">
             <div className="account-page">
                 <header className="header">Account Page</header>
+                <div className="button-page">
+                    <button className="edit">Edit</button>
+                </div>
+
 
                 <div className="main-content">
                     <div className="left-column">
