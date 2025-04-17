@@ -67,7 +67,7 @@ body{
     width:100%;
     padding:12px;
     border-radius:10px;
-    background-color: #57664f;
+    background-color: #AB51E3;
     color:white;
     text-align: center;
     border:none;
@@ -77,7 +77,7 @@ body{
     flex: 1;
 }
 .bio-section{
-    background-color: #ebeae2;
+    background-color: #DC97FF;
     padding: 20px;
     width:60%;
     align-content: center;
@@ -104,7 +104,7 @@ button{
 
 /* friend section*/
 .friends-section{
-    background-color:#ebeae2;
+    background-color:#DC97FF;
     padding: 20px;
 }
 .friends-title{
